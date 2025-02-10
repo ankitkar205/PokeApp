@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        tools:context=".SignUpAct">
+
+        <!-- Sign Up Logo -->
+        <ImageView
+            android:id="@+id/ivSignUpLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Sign Up Logo"
+            android:src="@drawable/ic_profile"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Username Field -->
+        <EditText
+            android:id="@+id/etNewUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="Enter Username"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivSignUpLogo" />
+
+        <!-- Password Field -->
+        <EditText
+            android:id="@+id/etNewPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:background="@drawable/rounded_edit_text"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etNewUsername"
+            android:layout_marginTop="16dp" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="18sp"
+            android:paddingVertical="14dp"
+            android:backgroundTint="#EB5463"
+            android:textColor="@android:color/white"
+            android:elevation="4dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etNewPassword" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

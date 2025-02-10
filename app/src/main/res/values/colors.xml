@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#808080</color>
+
+        <!-- Primary Colors -->
+        <color name="primary">#1E88E5</color> <!-- Vibrant Blue -->
+        <color name="primary_dark">#1565C0</color> <!-- Deep Blue -->
+        <color name="primary_light">#64B5F6</color> <!-- Sky Blue -->
+
+        <!-- Accent Colors -->
+        <color name="accent">#FBC02D</color> <!-- Bright Yellow -->
+        <color name="accent_dark">#F57F17</color> <!-- Golden Orange -->
+        <color name="accent_light">#FFF176</color> <!-- Soft Yellow -->
+
+        <!-- Pokémon Theme Inspired Colors -->
+        <color name="poke_red">#D32F2F</color> <!-- Poké Ball Red -->
+        <color name="poke_yellow">#FFEB3B</color> <!-- Pikachu Yellow -->
+        <color name="poke_blue">#1976D2</color> <!-- Squirtle Blue -->
+        <color name="poke_green">#388E3C</color> <!-- Bulbasaur Green -->
+        <color name="poke_purple">#7B1FA2</color> <!-- Gengar Purple -->
+
+        <!-- Background & UI Colors -->
+        <color name="background_light">#F5F5F5</color> <!-- Soft Gray -->
+        <color name="background_dark">#212121</color> <!-- Dark Mode Background -->
+        <color name="card_bg">#263238</color> <!-- Cool Dark Gray -->
+
+        <!-- Text Colors -->
+        <color name="text_primary">#FFFFFF</color> <!-- White Text -->
+        <color name="text_secondary">#BDBDBD</color> <!-- Light Gray -->
+        <color name="text_dark">#333333</color> <!-- Dark Gray -->
+
+        <!-- Gradient Inspired Colors -->
+        <color name="gradient_start">#FF6F61</color> <!-- Coral Red -->
+        <color name="gradient_end">#6A0572</color> <!-- Deep Purple -->
+
+        <!-- Extra Cool Tones -->
+        <color name="cool_cyan">#00BCD4</color> <!-- Cyan -->
+        <color name="cool_teal">#009688</color> <!-- Teal -->
+        <color name="cool_mint">#48C9B0</color> <!-- Mint Green -->
+        <color name="cool_navy">#0D47A1</color> <!-- Dark Navy Blue -->
+        <color name="cool_silver">#B0BEC5</color> <!-- Metallic Silver -->
+
+
+</resources>
