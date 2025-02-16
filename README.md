@@ -1,5 +1,5 @@
 # PokeApp
-<img src="4xjS.gif">
+<img src="4xjS.gif" width="100" height="100">
 PokeApp is an Android application that allows users to search for Pokémon by name or ID using the PokéAPI. The app displays detailed information, including the Pokémon's name, type, and image.
 
 ## Features
